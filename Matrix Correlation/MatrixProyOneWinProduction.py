@@ -60,16 +60,12 @@ def Windowing (mt,w,n,t,intv):
     #list of tensors 
     MT = []
     for tiempo in range (tstart,t+1,intv):    
-        print (tiempo)    
-        #print (tstart)
         mtt = []
         for x in range(numwin):
             #window
             tp = tstart
             win = listw[x]
             inwin = tp-win
-            #print ("INICIO")
-            #print (inwin-1)
             #generating the windows matrix 
             wmat = data[:, inwin-1:tp]   
             #print (wmat)
