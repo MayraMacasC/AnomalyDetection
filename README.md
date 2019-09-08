@@ -14,3 +14,6 @@ We use Bayesian Pearson Correlation Analysis in order to generate the statistica
 * The models are evaluated and the anomaly detection is performed in [AnomalyDetection/Anomaly Detection/S_Evaluation_ProyTS.py](https://github.com/AlexandraM1011/AnomalyDetection/blob/master/Anomaly%20Detection/S_Evaluation_ProyTS.py)
 
 
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
