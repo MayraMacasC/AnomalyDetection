@@ -11,5 +11,6 @@ We use Bayesian Pearson Correlation Analysis in order to generate the statistica
 
 # Attention-based Spatio-Temporal Autoencoder (STAE-AD)
 * The STAE-AD model and its variants (CNN-ED, CNNED + ConvLSTM-ED) are trained in [AnomalyDetection/STAE-AD/S_NormalTrain_ProyTS.py](https://github.com/AlexandraM1011/AnomalyDetection/blob/master/STAE-AD/S_NormalTrain_ProyTS.py)
-* The models are evaluated in 
+* The models are evaluated and the anomaly detection is performed in [AnomalyDetection/Anomaly Detection/S_Evaluation_ProyTS.py](https://github.com/AlexandraM1011/AnomalyDetection/blob/master/Anomaly%20Detection/S_Evaluation_ProyTS.py)
+
 
