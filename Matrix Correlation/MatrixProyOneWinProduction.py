@@ -43,13 +43,13 @@ def Windowing (mt,w,n,t,intv):
     n = number of sensores
     t = number of time series 
     intv = interval of time 
-    
     Returns
     -------       
     Return: list of tensors
     """
     start = datetime.now()
     print("[" + str(start) + "]" + " Starting Window.")
+    
     listw = w
     #number of windows
     numwin = len(listw)
@@ -59,6 +59,7 @@ def Windowing (mt,w,n,t,intv):
     #list of tensors 
     MT = []
     for tiempo in range (tstart,t+1,intv):    
+        print (tiempo)    
         mtt = []
         for x in range(numwin):
             #window
@@ -67,6 +68,7 @@ def Windowing (mt,w,n,t,intv):
             inwin = tp-win
             #generating the windows matrix 
             wmat = data[:, inwin-1:tp]   
+            #print (wmat)
             mt = []
             #genereting the signature matrix
             for r in range (n):
@@ -102,6 +104,7 @@ def Flattensor (listtensor):
     start = datetime.now()
     print("[" + str(start) + "]" + " Starting flattensor.")
     t=len(listtensor)
+    ##### 0 element 
     auxtensor = listtensor[0]
     #flatten
     auxflat = [val for sublist in auxtensor for val in sublist] 
@@ -115,7 +118,6 @@ def Flattensor (listtensor):
         dfxf = pd.concat([dfxf, dfflat],axis=1)
     end = datetime.now()
     print("[" + str(end) + "]" + " Finished flattensor. Duration: " + str(end-start))
-    #return(dfxf.transpose())
     return(dfxf)
 
 
@@ -146,7 +148,6 @@ def main (pathX,pathY,listw, intv):
     aux= Windowing(XT,listw,ns,t,intv)    
     #Y component to the network    
     YF = Y.iloc[max(listw):]   
-    #print (YF)
     YF.to_csv('Y_s2.csv')       
     #flatting the tensors
     cf_df = Flattensor(aux)
