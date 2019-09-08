@@ -5,7 +5,7 @@ In this framework, we used the Statistical Correlation Analysis module to charac
 # Matrix Correlation
 We use Bayesian Pearson Correlation Analysis in order to generate the statistical correlation matrices
 
-[I'm a relative reference to a repository file](/Matrix Correlation/BayesCorrelation.py)
+* [AnomalyDetection/Matrix Correlation/BayesCorrelation.py](https://github.com/AlexandraM1011/AnomalyDetection/blob/master/Matrix%20Correlation/BayesCorrelation.py)
 
 * Genereting the statistical correlation matrices in 
 
