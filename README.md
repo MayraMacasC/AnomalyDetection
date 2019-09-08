@@ -4,7 +4,8 @@ In this framework, we used the Statistical Correlation Analysis module to charac
 
 # Matrix Correlation
 We use Bayesian Pearson Correlation Analysis in order to generate the statistical correlation matrices
-Bayes correlation in 
-Genereting the statistical correlation matrices in 
+
+* Bayes correlation in 
+* Genereting the statistical correlation matrices in 
 
 # Attention-based Spatio-Temporal Autoencoder
