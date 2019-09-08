@@ -9,4 +9,7 @@ We use Bayesian Pearson Correlation Analysis in order to generate the statistica
 
 * Genereting the statistical correlation matrices in [AnomalyDetection/Matrix Correlation/MatrixProyOneWinProduction.py](https://github.com/AlexandraM1011/AnomalyDetection/blob/master/Matrix%20Correlation/MatrixProyOneWinProduction.py)
 
-# Attention-based Spatio-Temporal Autoencoder
+# Attention-based Spatio-Temporal Autoencoder (STAE-AD)
+* The STAE-AD model and its variants (CNN-ED, CNNED + ConvLSTM-ED) are trained in [AnomalyDetection/STAE-AD/S_NormalTrain_ProyTS.py](https://github.com/AlexandraM1011/AnomalyDetection/blob/master/STAE-AD/S_NormalTrain_ProyTS.py)
+* The models are evaluated in 
+
