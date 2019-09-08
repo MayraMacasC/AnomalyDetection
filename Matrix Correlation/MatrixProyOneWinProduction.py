@@ -50,7 +50,6 @@ def Windowing (mt,w,n,t,intv):
     """
     start = datetime.now()
     print("[" + str(start) + "]" + " Starting Window.")
-    
     listw = w
     #number of windows
     numwin = len(listw)
@@ -60,24 +59,18 @@ def Windowing (mt,w,n,t,intv):
     #list of tensors 
     MT = []
     for tiempo in range (tstart,t+1,intv):    
-        print (tiempo)    
-        #print (tstart)
         mtt = []
         for x in range(numwin):
             #window
             tp = tstart
             win = listw[x]
             inwin = tp-win
-            #print ("INICIO")
-            #print (inwin-1)
             #generating the windows matrix 
             wmat = data[:, inwin-1:tp]   
-            #print (wmat)
             mt = []
             #genereting the signature matrix
             for r in range (n):
                 vec1 = wmat[r:r+1, :]
-                #print (vec1)
                 array1 = []
                 n12 = np.squeeze(np.asarray(vec1))
                 for c in range (n):
@@ -109,7 +102,6 @@ def Flattensor (listtensor):
     start = datetime.now()
     print("[" + str(start) + "]" + " Starting flattensor.")
     t=len(listtensor)
-    ##### 0 element 
     auxtensor = listtensor[0]
     #flatten
     auxflat = [val for sublist in auxtensor for val in sublist] 
