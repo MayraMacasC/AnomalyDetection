@@ -7,6 +7,6 @@ We use Bayesian Pearson Correlation Analysis in order to generate the statistica
 
 * Bayesian Pearson Correlation Analysis in [AnomalyDetection/Matrix Correlation/BayesCorrelation.py](https://github.com/AlexandraM1011/AnomalyDetection/blob/master/Matrix%20Correlation/BayesCorrelation.py)
 
-* Genereting the statistical correlation matrices in [AnomalyDetection/Matrix Correlation/MatrixProyOneWinProduction.py] (AnomalyDetection/Matrix Correlation/MatrixProyOneWinProduction.py)
+* Genereting the statistical correlation matrices in [AnomalyDetection/Matrix Correlation/MatrixProyOneWinProduction.py](https://github.com/AlexandraM1011/AnomalyDetection/blob/master/Matrix%20Correlation/MatrixProyOneWinProduction.py)
 
 # Attention-based Spatio-Temporal Autoencoder
