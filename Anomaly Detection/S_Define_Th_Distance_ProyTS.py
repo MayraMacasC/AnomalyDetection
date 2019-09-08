@@ -11,8 +11,6 @@ from sklearn.metrics import classification_report
 import random
 import operator
 
-#extract_error (data,mode,h5model,model_names,custom_object)
-
 def extract_score (case,mode,data_pathX,data_pathY,h5model,model_names,custom_object,ban):
     for v2 in process_data (case,mode,data_pathX,data_pathY):
         print ("SCORE")
