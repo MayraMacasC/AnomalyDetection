@@ -21,7 +21,7 @@ Figure 1 shows a high-level overview of the framework. We begin with a set of hi
 -  [Contributing](#contributing)
 -  [Acknowledgments](#acknowledgments)
 - [License](#license)
-
+[BayesCorrelation.py](https://github.com/MayraMacasC/AnomalyDetection/blob/master/Statistical%20Correlation%20Analysis/BayesCorrelation.py)
 ---
 
 ## In a Nutshell   
@@ -85,27 +85,27 @@ do_train(cfg, model, train_loader, val_loader, optimizer, None, F.cross_entropy)
 ## In Details
 ```
 ├── Statistical Correlation Analysis - statistical Correlation Analysis module to characterize the system status at different time steps
-│    └── [BayesCorrelation.py](https://github.com/MayraMacasC/AnomalyDetection/blob/master/Statistical%20Correlation%20Analysis/BayesCorrelation.py)
-│    └── [MatrixProyOneWinProduction.py]  (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Statistical%20Correlation%20Analysis/MatrixProyOneWinProduction.py) - this file allows to create new construct a m × m correlation matrix based on the Bayes Pearson correlation analysis, where m is the number of time series
+│    └── BayesCorrelation.py - this file contains the Bayes Correlation process 
+│    └── MatrixProyOneWinProduction.py - file allows to create new construct a m × m correlation matrix based on the Bayes Pearson correlation analysis, where m is the number of time series.
 │ 
 │
-├──  STAE-AD 
-│    └── [S_ModelsProyTS_Deploy.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/STAE-AD/S_ModelsProyTS_Deploy.py) - here's the datasets folder that is responsible for all data handling.
-│    └── [S_NormalTrain_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/STAE-AD/S_NormalTrain_ProyTS.py) - here's the data preprocess folder that is responsible for all data augmentation.
-│    └── [S_Parameters_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/STAE-AD/S_Parameters_ProyTS.py) - here's the file to make dataloader.
-│    └── [S_ProcessingErrorMatrix.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/STAE-AD/S_ProcessingErrorMatrix.py) - here's the file that is responsible for merges a list of samples to form a mini-batch.
-│    └── [VarConvLSTM.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/STAE-AD/VarConvLSTM.py) - 
+├──  STAE-AD - deep learning module 
+│    └── S_ModelsProyTS_Deploy.py - main model and its variants
+│    └── S_NormalTrain_ProyTS.py - this file containts the process to train the main model and its variants 
+│    └── S_Parameters_ProyTS.py - parameter configuration
+│    └── S_ProcessingErrorMatrix.py 
+│    └── VarConvLSTM.py Atention model process 
 │
-├──  AnomalyDetection
-│    └── [S_Define_Th_Distance_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Helper/S_DataPrepartion_ProyTS.py) - this file contains the train loops.
-│    └── [S_Distance_Matrix.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Helper/S_DataProcessingEvaluation_ProyTS.py) - this file contains the inference process.
-|    └── [S_Evaluation_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Helper/S_DataProcessingProyTS.py) - this file contains the inference process.
+├──  AnomalyDetection - anomaly detection module
+│    └── S_Define_Th_Distance_ProyTS.py - preliminar process to calculate the distance between matrices 
+│    └── S_Distance_Matrix.py - process to calculate the distante between two matrices 
+|    └── S_Evaluation_ProyTS.py - metrics evaluation (to threshold)
 │
 │
-├── Helper              - this folder contains any customed layers of your project.
-│    └── [S_DataPrepartion_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Anomaly%20Detection/S_Define_Th_Distance_ProyTS.py) - 
-│    └── [S_DataProcessingEvaluation_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Anomaly%20Detection/S_Distance_Matrix.py) - 
-|    └── [S_DataProcessingProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Anomaly%20Detection/S_Evaluation_ProyTS.py) - 
+├── Helper      
+│    └── [S_DataPrepartion_ProyTS.py] - data preparation to split data
+│    └── [S_DataProcessingProyTS.py] - split data (training/validation/evaluation)
+|    └── [S_DataProcessingEvaluation_ProyTS.py]  - metrics evaluation (anamaly detection)
 ```
 ---
 
