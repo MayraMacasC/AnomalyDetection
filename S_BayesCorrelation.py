@@ -2,7 +2,7 @@
 """
 Created on Tue Apr  2 22:56:15 2019
 
-@author: Mayra
+@author: Mayra Macas
 """
 
 import matplotlib.pyplot as plt
