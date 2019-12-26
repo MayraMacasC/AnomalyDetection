@@ -97,15 +97,15 @@ do_train(cfg, model, train_loader, val_loader, optimizer, None, F.cross_entropy)
 │    └── VarConvLSTM.py
 │
 ├──  AnomalyDetection
-│   ├── S_Define_Th_Distance_ProyTS.py    - this file contains the train loops.
-│   └── S_Distance_Matrix.py   - this file contains the inference process.
-|   └── S_Evaluation_ProyTS.py   - this file contains the inference process.
+│    └── S_Define_Th_Distance_ProyTS.py    - this file contains the train loops.
+│    └── S_Distance_Matrix.py   - this file contains the inference process.
+|    └── S_Evaluation_ProyTS.py   - this file contains the inference process.
 │
 │
 ├── Helper              - this folder contains any customed layers of your project.
-│   └── S_DataPrepartion_ProyTS.py
-│   └── S_DataProcessingEvaluation_ProyTS.py
-|   └── S_DataProcessingProyTS.py
+│    └── S_DataPrepartion_ProyTS.py
+│    └── S_DataProcessingEvaluation_ProyTS.py
+|    └── S_DataProcessingProyTS.py
 ```
 ---
 
