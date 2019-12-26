@@ -14,7 +14,6 @@ Figure 1 shows a high-level overview of the framework. We begin with a set of hi
 ## Table Of Contents
 -  [In a Nutshell](#in-a-nutshell)
 -  [In Details](#in-details)
--  [Future Work](#future-work)
 -  [Contributing](#contributing)
 -  [Acknowledgments](#acknowledgments)
 -  [License] (#license)
@@ -78,7 +77,7 @@ do_train(cfg, model, train_loader, val_loader, optimizer, None, F.cross_entropy)
 
 ## In Details
 ```
-├──  Statistical Correlation Analysis - Statistical Correlation Analysis module to characterize the system status at different time steps
+├──  Statistical Correlation Analysis - statistical Correlation Analysis module to characterize the system status at different time steps
 │    └── BayesCorrelation.py - this file contains the bayes correction process 
 │    └── MatrixProyOneWinProduction.py  - this file allows to create new construct a m × m correlation matrix based on the Bayes Pearson correlation analysis, where m is the number of time series
 │ 
@@ -107,4 +106,6 @@ Any kind of enhancement or contribution is welcomed.
 
 
 ## Acknowledgments
+The authors would like to thank iTrust, Center for Research in Cyber Security, Singapore University of Technology and Design for providing the SWaT dataset.
 ## License
+
