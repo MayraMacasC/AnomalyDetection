@@ -13,6 +13,7 @@ Current Cyber-Physical Systems (CPSs) are sophisticated, complex, and equipped w
 -  [Future Work](#future-work)
 -  [Contributing](#contributing)
 -  [Acknowledgments](#acknowledgments)
+-  [License] (#license)
 
 ## In a Nutshell   
 In a nutshell here's how to use this template, so **for example** assume you want to implement ResNet-18 to train mnist, so you should do the following:
@@ -127,3 +128,4 @@ Any kind of enhancement or contribution is welcomed.
 
 
 ## Acknowledgments
+## License
