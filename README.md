@@ -98,14 +98,14 @@ do_train(cfg, model, train_loader, val_loader, optimizer, None, F.cross_entropy)
 │
 ├──  AnomalyDetection - anomaly detection module
 │    └── S_Define_Th_Distance_ProyTS.py - preliminar process to calculate the distance between matrices 
-│    └── S_Distance_Matrix.py - process to calculate the distante between two matrices 
+│    └── S_Distance_Matrix.py - diferents methods to calculate the distante between two matrices 
 |    └── S_Evaluation_ProyTS.py - metrics evaluation (to threshold)
 │
 │
 ├── Helper      
 │    └── [S_DataPrepartion_ProyTS.py] - data preparation to split data
 │    └── [S_DataProcessingProyTS.py] - split data (training/validation/evaluation)
-|    └── [S_DataProcessingEvaluation_ProyTS.py]  - metrics evaluation (anamaly detection)
+|    └── [S_DataProcessingEvaluation_ProyTS.py]  - metrics evaluation (anamaly detection process)
 ```
 ---
 
