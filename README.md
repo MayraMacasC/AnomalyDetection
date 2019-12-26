@@ -80,49 +80,27 @@ do_train(cfg, model, train_loader, val_loader, optimizer, None, F.cross_entropy)
 ```
 ├──  Statistical Correlation Analysis
 │    └── BayesCorrelation.py - this file contains the bayes correction process 
-│    └── MatrixProyOneWinProduction.py  - this file allows to create new construct a m × m correlation matrix based on the Bayesian    Pearson correlation analysis, where m is the number of time series
+│    └── MatrixProyOneWinProduction.py  - this file allows to create new construct a m × m correlation matrix based on the Bayes Pearson correlation analysis, where m is the number of time series
 │ 
 │
-├──  data  
-│    └── datasets  - here's the datasets folder that is responsible for all data handling.
-│    └── transforms  - here's the data preprocess folder that is responsible for all data augmentation.
-│    └── build.py  		   - here's the file to make dataloader.
-│    └── collate_batch.py   - here's the file that is responsible for merges a list of samples to form a mini-batch.
+├──  STAE-AD 
+│    └── S_ModelsProyTS_Deploy.py  - here's the datasets folder that is responsible for all data handling.
+│    └── S_NormalTrain_ProyTS.py - here's the data preprocess folder that is responsible for all data augmentation.
+│    └── S_Parameters_ProyTS.py 		   - here's the file to make dataloader.
+│    └── S_ProcessingErrorMatrix.py  - here's the file that is responsible for merges a list of samples to form a mini-batch.
+│    └── VarConvLSTM.py
+│
+├──  AnomalyDetection
+│   ├── S_Define_Th_Distance_ProyTS.py    - this file contains the train loops.
+│   └── S_Distance_Matrix.py   - this file contains the inference process.
+|   └── S_Evaluation_ProyTS.py   - this file contains the inference process.
 │
 │
-├──  engine
-│   ├── trainer.py     - this file contains the train loops.
-│   └── inference.py   - this file contains the inference process.
-│
-│
-├── layers              - this folder contains any customed layers of your project.
-│   └── conv_layer.py
-│
-│
-├── modeling            - this folder contains any model of your project.
-│   └── example_model.py
-│
-│
-├── solver             - this folder contains optimizer of your project.
-│   └── build.py
-│   └── lr_scheduler.py
-│   
-│ 
-├──  tools                - here's the train/test model of your project.
-│    └── train_net.py  - here's an example of train model that is responsible for the whole pipeline.
-│ 
-│ 
-└── utils
-│    ├── logger.py
-│    └── any_other_utils_you_need
-│ 
-│ 
-└── tests					- this foler contains unit test of your project.
-     ├── test_data_sampler.py
-```
+├── Helper              - this folder contains any customed layers of your project.
+│   └── S_DataPrepartion_ProyTS.py
+│   └── S_DataProcessingEvaluation_ProyTS.py
+|   └── S_DataProcessingProyTS.py
 
-
-## Future Work
 
 ## Contributing
 Any kind of enhancement or contribution is welcomed.
