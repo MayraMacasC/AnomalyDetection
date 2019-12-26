@@ -85,27 +85,27 @@ do_train(cfg, model, train_loader, val_loader, optimizer, None, F.cross_entropy)
 ## In Details
 ```
 ├── Statistical Correlation Analysis - statistical Correlation Analysis module to characterize the system status at different time steps
-│    └── <a href="https://github.com/MayraMacasC/AnomalyDetection/blob/master/Statistical%20Correlation%20Analysis/BayesCorrelation.py" title="BayesCorrelation.py">BayesCorrelation.py</a> - this file contains the bayes correction process 
-│    └── MatrixProyOneWinProduction.py  - this file allows to create new construct a m × m correlation matrix based on the Bayes Pearson correlation analysis, where m is the number of time series
+│    └── [BayesCorrelation.py](https://github.com/MayraMacasC/AnomalyDetection/blob/master/Statistical%20Correlation%20Analysis/BayesCorrelation.py)
+│    └── [MatrixProyOneWinProduction.py]  (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Statistical%20Correlation%20Analysis/MatrixProyOneWinProduction.py) - this file allows to create new construct a m × m correlation matrix based on the Bayes Pearson correlation analysis, where m is the number of time series
 │ 
 │
 ├──  STAE-AD 
-│    └── S_ModelsProyTS_Deploy.py  - here's the datasets folder that is responsible for all data handling.
-│    └── S_NormalTrain_ProyTS.py - here's the data preprocess folder that is responsible for all data augmentation.
-│    └── S_Parameters_ProyTS.py 		   - here's the file to make dataloader.
-│    └── S_ProcessingErrorMatrix.py  - here's the file that is responsible for merges a list of samples to form a mini-batch.
-│    └── VarConvLSTM.py
+│    └── [S_ModelsProyTS_Deploy.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/STAE-AD/S_ModelsProyTS_Deploy.py) - here's the datasets folder that is responsible for all data handling.
+│    └── [S_NormalTrain_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/STAE-AD/S_NormalTrain_ProyTS.py) - here's the data preprocess folder that is responsible for all data augmentation.
+│    └── [S_Parameters_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/STAE-AD/S_Parameters_ProyTS.py) - here's the file to make dataloader.
+│    └── [S_ProcessingErrorMatrix.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/STAE-AD/S_ProcessingErrorMatrix.py) - here's the file that is responsible for merges a list of samples to form a mini-batch.
+│    └── [VarConvLSTM.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/STAE-AD/VarConvLSTM.py) - 
 │
 ├──  AnomalyDetection
-│    └── S_Define_Th_Distance_ProyTS.py    - this file contains the train loops.
-│    └── S_Distance_Matrix.py   - this file contains the inference process.
-|    └── S_Evaluation_ProyTS.py   - this file contains the inference process.
+│    └── [S_Define_Th_Distance_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Helper/S_DataPrepartion_ProyTS.py) - this file contains the train loops.
+│    └── [S_Distance_Matrix.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Helper/S_DataProcessingEvaluation_ProyTS.py) - this file contains the inference process.
+|    └── [S_Evaluation_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Helper/S_DataProcessingProyTS.py) - this file contains the inference process.
 │
 │
 ├── Helper              - this folder contains any customed layers of your project.
-│    └── S_DataPrepartion_ProyTS.py
-│    └── S_DataProcessingEvaluation_ProyTS.py
-|    └── S_DataProcessingProyTS.py
+│    └── [S_DataPrepartion_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Anomaly%20Detection/S_Define_Th_Distance_ProyTS.py) - 
+│    └── [S_DataProcessingEvaluation_ProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Anomaly%20Detection/S_Distance_Matrix.py) - 
+|    └── [S_DataProcessingProyTS.py] (https://github.com/MayraMacasC/AnomalyDetection/blob/master/Anomaly%20Detection/S_Evaluation_ProyTS.py) - 
 ```
 ---
 
