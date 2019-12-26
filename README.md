@@ -120,4 +120,6 @@ The authors would like to thank iTrust, Center for Research in Cyber Security, S
 ---
 
 ## License
+[License](https://github.com/MayraMacasC/AnomalyDetection/blob/master/LICENSE.md)
+
 
