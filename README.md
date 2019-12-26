@@ -78,12 +78,9 @@ do_train(cfg, model, train_loader, val_loader, optimizer, None, F.cross_entropy)
 
 ## In Details
 ```
-├──  config
-│    └── defaults.py  - here's the default config file.
-│
-│
-├──  configs  
-│    └── train_mnist_softmax.yml  - here's the specific config file for specific model or dataset.
+├──  Statistical Correlation Analysis
+│    └── BayesCorrelation.py - this file contains the bayes correction process 
+│    └── MatrixProyOneWinProduction.py  - this file allows to create new construct a m × m correlation matrix based on the Bayesian     |                                          Pearson correlation analysis, where m is the number of time series
 │ 
 │
 ├──  data  
