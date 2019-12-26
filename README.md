@@ -80,7 +80,7 @@ do_train(cfg, model, train_loader, val_loader, optimizer, None, F.cross_entropy)
 ```
 ├──  Statistical Correlation Analysis
 │    └── BayesCorrelation.py - this file contains the bayes correction process 
-│    └── MatrixProyOneWinProduction.py  - this file allows to create new construct a m × m correlation matrix based on the Bayesian     |                                          Pearson correlation analysis, where m is the number of time series
+│    └── MatrixProyOneWinProduction.py  - this file allows to create new construct a m × m correlation matrix based on the Bayesian    Pearson correlation analysis, where m is the number of time series
 │ 
 │
 ├──  data  
