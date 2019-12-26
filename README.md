@@ -86,14 +86,14 @@ do_train(cfg, model, train_loader, val_loader, optimizer, None, F.cross_entropy)
 ```
 ├── Statistical Correlation Analysis - statistical Correlation Analysis module to characterize the system status at different time steps
 │    └── BayesCorrelation.py - this file contains the Bayes Correlation process 
-│    └── MatrixProyOneWinProduction.py - file allows to create new construct a m × m correlation matrix based on the Bayes Pearson correlation analysis, where m is the number of time series.
+│    └── MatrixProyOneWinProduction.py - this file allows to construct a m × m correlation matrix based on the Bayes Pearson correlation analysis, where m is the number of time series.
 │ 
 │
 ├──  STAE-AD - deep learning module 
 │    └── S_ModelsProyTS_Deploy.py - main model and its variants
 │    └── S_NormalTrain_ProyTS.py - this file containts the process to train the main model and its variants 
 │    └── S_Parameters_ProyTS.py - parameter configuration
-│    └── S_ProcessingErrorMatrix.py 
+│    └── S_ProcessingErrorMatrix.py - processing anomaly detection error
 │    └── VarConvLSTM.py Atention model process 
 │
 ├──  AnomalyDetection - anomaly detection module
