@@ -77,8 +77,8 @@ do_train(cfg, model, train_loader, val_loader, optimizer, None, F.cross_entropy)
 
 ## In Details
 ```
-├──  Statistical Correlation Analysis - statistical Correlation Analysis module to characterize the system status at different time steps
-│    └── BayesCorrelation.py - this file contains the bayes correction process 
+├── Statistical Correlation Analysis - statistical Correlation Analysis module to characterize the system status at different time steps
+│    └── <a href="https://github.com/MayraMacasC/AnomalyDetection/blob/master/Statistical%20Correlation%20Analysis/BayesCorrelation.py" title="BayesCorrelation.py">BayesCorrelation.py</a> - this file contains the bayes correction process 
 │    └── MatrixProyOneWinProduction.py  - this file allows to create new construct a m × m correlation matrix based on the Bayes Pearson correlation analysis, where m is the number of time series
 │ 
 │
