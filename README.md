@@ -20,7 +20,7 @@ Figure 1 shows a high-level overview of the framework. We begin with a set of hi
 
 - [Current Bill of Materials](./BOM.md) Constantly updated with latest additions
 - [Hardware build concept (draft)](./hardware)
-- [Motherboard Construction](./motherboard)
+- [Motherboard Construction](## License)
 - [License](./LICENSE.md)
 
 
@@ -113,5 +113,6 @@ Any kind of enhancement or contribution is welcomed.
 
 ## Acknowledgments
 The authors would like to thank iTrust, Center for Research in Cyber Security, Singapore University of Technology and Design for providing the SWaT dataset.
+
 ## License
 
