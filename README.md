@@ -5,6 +5,7 @@ Current Cyber-Physical Systems (CPSs) are sophisticated, complex, and equipped w
 <img src="https://github.com/MayraMacasC/AnomalyDetection/blob/master/Framework.png" width="500" height="250">
 </p>
 Figure 1 shows a high-level overview of the framework. We begin with a set of historical time series data, correctly curated, as input. Next, we use the Statistical Correlation Analysis module to characterize the system status at different time steps. The generated correlation matrices are fed into the core module of the framework - the one with the attention-based Spatio-Temporal Autoencoder for anomaly detection (STAEAD). In greater detail, the convolutional encoder is employed to learn the spatial information that is hidden in the correlation matrices, whereas ConvLSTM captures the temporal dependencies. In addition, the soft-Attention technique is applied in ConvLSTM. Specifically, we introduce an input attention mechanism to select the most relevant input features adaptively. Finally, the convolutional decoder reconstructs the correlation matrices and uses the mean square loss function to perform end-to-end learning.
+
 ## Requirements
 - Python 3.5.6
 - TensorFlow framework version 1.11.0 
