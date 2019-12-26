@@ -20,7 +20,7 @@ Figure 1 shows a high-level overview of the framework. We begin with a set of hi
 
 - [Current Bill of Materials](./BOM.md) Constantly updated with latest additions
 - [Hardware build concept (draft)](./hardware)
-- [Motherboard Construction](## License)
+- [Motherboard Construction](# license)
 - [License](./LICENSE.md)
 
 
