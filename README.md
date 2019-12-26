@@ -16,7 +16,13 @@ Figure 1 shows a high-level overview of the framework. We begin with a set of hi
 -  [In Details](#in-details)
 -  [Contributing](#contributing)
 -  [Acknowledgments](#acknowledgments)
--  [License] (./LICENSE.md) 
+-  [] (./LICENSE.md) 
+
+- [Current Bill of Materials](./BOM.md) Constantly updated with latest additions
+- [Hardware build concept (draft)](./hardware)
+- [Motherboard Construction](./motherboard)
+- [License](./LICENSE.md)
+
 
 ## In a Nutshell   
 In a nutshell here's how to use this template, so **for example** assume you want to implement ResNet-18 to train mnist, so you should do the following:
