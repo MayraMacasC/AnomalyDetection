@@ -2,10 +2,6 @@
 # ==============================================================================
 # AttenInputConvLSTM2D
 # ==============================================================================
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
 import numpy as np
 from tensorflow.python.ops import math_ops
 from tensorflow.python.keras import activations
@@ -13,11 +9,6 @@ from tensorflow.python.keras import backend as K
 from tensorflow.python.keras import constraints
 from tensorflow.python.keras import initializers
 from tensorflow.python.keras import regularizers
-from tensorflow.python.keras.engine.base_layer import InputSpec
-from tensorflow.python.keras.engine.base_layer import Layer
-from tensorflow.python.keras.layers.recurrent import _generate_dropout_mask
-from tensorflow.python.keras.layers.recurrent import _standardize_args
-from MyRecurrent import Recurrent
 from tensorflow.python.keras.utils import conv_utils
 from tensorflow.python.keras.utils import generic_utils
 from tensorflow.python.keras.utils import tf_utils
