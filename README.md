@@ -24,9 +24,7 @@ Current Cyber-Physical Systems (CPSs) are sophisticated, complex, and equipped w
 │    └── VarConvLSTM.py Atention model process 
 │
 ├──  AnomalyDetection - anomaly detection module
-│    └── S_Define_Th_Distance_ProyTS.py - preliminar process to calculate the distance between matrices 
 │    └── S_Distance_Matrix.py - diferents methods to calculate the distante between two matrices 
-|    └── S_Evaluation_ProyTS.py - metrics evaluation (to threshold)
 ```
 ---
 
