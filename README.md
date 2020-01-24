@@ -19,11 +19,6 @@ Current Cyber-Physical Systems (CPSs) are sophisticated, complex, and equipped w
 
 ## In Details
 ```
-├── Statistical Correlation Analysis - statistical Correlation Analysis module to characterize the system status at different time steps
-│    └── BayesCorrelation.py - this file contains the Bayes Correlation process 
-│    └── MatrixProyOneWinProduction.py - this file allows to construct a m × m correlation matrix based on the Bayes Pearson correlation analysis, where m is the number of time series.
-│ 
-│
 ├──  STAE-AD - deep learning module 
 │    └── S_ModelsProyTS_Deploy.py - main model and its variants
 │    └── S_NormalTrain_ProyTS.py - this file containts the process to train the main model and its variants 
